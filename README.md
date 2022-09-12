@@ -1,7 +1,5 @@
 <h1 align="center">Bath & Body Works Clone</h1> 
 
-<h2 align="center">It's a React app</h2>
-
 <br />
 <p align="center">
     <img src="https://img.shields.io/badge/React_(17.0.2)-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="reactjs" />
@@ -19,13 +17,13 @@
 
 <p align="center"> 
     <br /> 
-    <a href="https://github.com/Arfeen98/rainy-scissors-3404/issues">Report Bug</a>  
-    <a href="#Getting-Started">Getting Started</a> &#10023; <a href="#Install">Installing</a> &#10023;    
+    <a href="https://github.com/Arfeen98/rainy-scissors-3404/issues">Report Bug</a> &#10023
+    <a href="#Getting-Started">Getting Started</a> &#10023;
+    <a href="#Install">Installing</a> &#10023;    
     <a href="#Contact">Author</a> &#10023;
   </p>
  Bath & Body Works, LLC. is an American web application that caters premium soaps, lotions, fragrances, and candles
- 
-![Rainbow Gradient Pink and Purple Zoom Virtual Background]
+
 <img src='./Images/Home.png' alt="Home"/>
 
   ## Screens
