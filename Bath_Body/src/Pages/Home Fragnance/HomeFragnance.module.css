@@ -79,11 +79,13 @@
   width: 20%;
   /* border: 1px solid red; */
   margin-top: 3%;
+  cursor: pointer;
 }
 .filter_h1 {
   font-size: 1.063rem;
   font-weight: bold;
   padding: 0.938rem;
+  cursor: pointer;
 }
 .filter_select {
   width: 14.375rem;
@@ -93,6 +95,7 @@
   background-color: #f2f2f2;
   letter-spacing: 0.5px;
   outline: none;
+  cursor: pointer;
 }
 .sort_select {
   font-size: 0.75rem;
@@ -104,6 +107,7 @@
   width: 12.5rem;
   color: #666;
   outline: none;
+  cursor: pointer;
 }
 /* .........product_container */
 .product_container {
