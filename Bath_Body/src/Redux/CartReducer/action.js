@@ -9,7 +9,7 @@ export const addtocart = async ({ item, dispatch}) => {
          type: ADD_TOCART_REQUEST,
        });
        return axios({
-         url: "https://bathandbodyherokuapi.herokuapp.com/cart",
+         url: "https://rainy-scissors.onrender.com/cart",
          method: "post",
          data: {
           img:item.img,
@@ -40,7 +40,7 @@ export const addtocart = async ({ item, dispatch}) => {
           type: GET_CART_REQUEST
         });
         try {
-          let res = await axios.get("https://bathandbodyherokuapi.herokuapp.com/cart");
+          let res = await axios.get("https://rainy-scissors.onrender.com/cart");
           let data = await res.data;
           // console.log(data)
           dispatch({
@@ -56,7 +56,7 @@ export const addtocart = async ({ item, dispatch}) => {
       export const deleteitem =(id)=>(dispatch) => {
         console.log(id);
         return (
-          axios.delete(`https://bathandbodyherokuapi.herokuapp.com/cart/${id}`)
+          axios.delete(`https://rainy-scissors.onrender.com/cart/${id}`)
           .then((res)=>{
             dispatch({
               dispatch:DELETE_FROM_CART,
